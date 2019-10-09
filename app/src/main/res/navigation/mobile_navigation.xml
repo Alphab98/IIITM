@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_aboutiiitm">
+
+    <fragment
+        android:id="@+id/nav_academics"
+        android:name="com.example.iiitmstars.ui.academics.AcademicsFragment"
+        android:label="@string/menu_academics"
+        tools:layout="@layout/fragment_academics" />
+
+    <fragment
+        android:id="@+id/nav_aboutiiitm"
+        android:name="com.example.iiitmstars.ui.aboutiiitm.AboutIIITMFragment"
+        android:label="@string/menu_aboutiiitm"
+        tools:layout="@layout/fragment_aboutiiitm" />
+
+    <fragment
+        android:id="@+id/nav_department"
+        android:name="com.example.iiitmstars.ui.department.DepartmentFragment"
+        android:label="@string/menu_department"
+        tools:layout="@layout/fragment_department" />
+
+    <fragment
+        android:id="@+id/nav_people"
+        android:name="com.example.iiitmstars.ui.people.PeopleFragment"
+        android:label="@string/menu_people"
+        tools:layout="@layout/fragment_people" />
+    <fragment
+        android:id="@+id/nav_tnp"
+        android:name="com.example.iiitmstars.ui.tnp.TnpFragment"
+        android:label="@string/menu_tnp"
+        tools:layout="@layout/fragment_tnp" />
+
+    <fragment
+        android:id="@+id/nav_info"
+        android:name="com.example.iiitmstars.ui.info.InfoFragment"
+        android:label="@string/menu_info"
+        tools:layout="@layout/fragment_info" />
+
+    <fragment
+        android:id="@+id/nav_contactus"
+        android:name="com.example.iiitmstars.ui.contactus.ContactUsFragment"
+        android:label="@string/menu_contactus"
+        tools:layout="@layout/fragment_contactus" />
+</navigation>

@@ -1,3 +1,0 @@
-# IIITM
-
-private pull only

@@ -1,9 +1,154 @@
 <resources>
-    <string name="app_name">IIITM</string>
+    <string name="app_name">IIITMStars</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">IIITMANIPUR</string>
+    <string name="nav_header_subtitle">t.raman@iiitmanipur.ac.in</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+
+    <string name="menu_aboutiiitm">About IIITM</string>
+    <string name="menu_academics">Academics</string>
+    <string name="menu_department">Department</string>
+    <string name="menu_people">People</string>
+    <string name="menu_tnp">TnP</string>
+    <string name="menu_info">Info</string>
+    <string name="menu_contactus">Contact Us</string>
+
+    <string name="bottom_home_text">Home</string>
+    <string name="bottom_notification_text">Notification</string>
+    <string name="bottom_ac_text">Notice</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="about_us_one" >Indian Institute of Information Technology Senapati,
+        Manipur (IIITM) is an institution under MHRD, Govt. of India. IIIT Senapati,
+        Manipur was established in 2015 in order to develop Manipur as preferred
+        destination for Information Technology (IT) related manpower and industry.</string>
+     <string name="about_us_two">This shall enable Manipur to gear up for providing
+         IT related services as well as high-quality Research and Development in IT.</string>
+    <string name="about_us_three" > IIIT Senapati, Manipur offers B.Tech programmes in two disciplines,
+         Computer Science and Engineering (CSE) and Electronics and Communication
+         Engineering (ECE) from its transit campus located at Mantripukhri,
+        Opposite of Software Technology Park, Near CRPF Camp in Imphal.</string>
+    <string name="about_us_four">
+         The campus holds classrooms, labs, faculty rooms, seminar hall,
+        play ground, faculty quarters, guest house and administrative offices.</string>
+    <string name="about_us_five" >
+         IIIT Senapati, Manipur permanent campus will come up at Ningthoupham
+         village, Mayangkhang, Senapati district of Manipur.</string>
+    <string name="about_us_six">IIIT Senapati, Manipur is one of the 20 IIITs set up
+        by the Central Govt. in PPP mode. A Bill (Act of Parliament) to declare all
+        the PPP-IIITs (including IIIT Senapati, Manipur) as Institutes of National
+        Importance has been placed before the Lok Sabha.</string>
+    <string name="about_us_seven">IIIT Senapati, Manipur strives to be attentive to
+        academic needs of every student. Classes are conveniently scheduled between
+        8 A.M. to 4:30 P. M. Every class room is well maintained and has projection
+        facilities. An Institute-wide wi-fi system provides Internet access throughout
+        the Institute.</string>
+    <string name="about_us_eight">IIIT Senapati, Manipur is mentored by IIT Guwahati,
+        Interim Director Prof. Amarendra Kumar Das is actively working and the transit
+        complex is provided with all required infrastructure for overall development of
+        the institute. IIIT Senapati, Manipur is also looking for private/industry partner
+        for the institute.</string>
+    <string name="about_us_nine">It is also mandated to start Design and Manufacturing disciplines
+        to positively contribute to Govt. of India mission of Act East and creating manufacturing
+        hub in South East Asia. To contribute to Human Resource development of its neighboring
+        countries, IIIT Senapati, Manipur will be looking for opportunities to spread IT education
+        to Myanmar by providing required facilities to students of that country to study in IIIT
+        Senapati, Manipur through bi-lateral agreements.</string>
+
+
+    <string name="ppp_for_iiitm_one">Partner in PPP for IIIT Senapati, Manipur</string>
+    <string name="ppp_for_iiitm_two">Manipur is not having any significant presence of
+        any big corporate house or MNC to be partner in IIIT Senapati, Manipur in PPP mode.
+        Manipur State IT SEZ Deevelopment Company (MIPDCO) has taken the lead to Industry
+        partner in this effort so that IIIT Senapati, Manipur can be realized. IIIT Senapati,
+        Manipur acknowledge Manipur Development Society for being the initial partner</string>
+    <string name="ppp_for_iiitm_three">1. Industry Partner: Representative of Manipur State IT
+        SEZ Deevelopment Company (MIPDCO)</string>
+    <string name="ppp_for_iiitm_four">2. Implementing Agency: Manipur State IT Society (MSITS)</string>
+    <string name="ppp_for_iiitm_five">3. Working Agency: State PWD</string>
+
+
+    <string name="mission_and_vision_one" >Mission</string>
+    <string name="mission_and_vision_two" >The IIIT Senapati, Manipur undertakes the mission to
+        provide technical education by offering state-of-the-art undergraduate, postgraduate and
+        doctoral programmes with international standards of excellence and with emphasis on research
+        to undertake collaborative projects which offer opportunities for long-term interaction with
+        academia and Information Technology (IT) industry as well as technology development in the area
+        of national importance</string>
+    <string name="mission_and_vision_three" >Vision</string>
+    <string name="mission_and_vision_four" >To contribute to India and the World through excellence in
+        Information Technology in general; to build leaders and entrepreneurs through transformative and
+        Innovative Education in the context of socio-economic relevance to the North East of India in
+        particular; to serve as a valuable resource for industry and society; and remain a source of
+        pride for all Indians.</string>
+    <string name="mission_and_vision_five" >Manipur, being projected as a Gateway to South East Asia under
+        the Look East Policy of the Government of India, IIIT Senapati, Manipur will be looking for
+        opportunities to spread IT education and to contribute to Human Resource development in its
+        neighboring countries.</string>
+    <string name="mission_and_vision_six" >IIIT Senapati, Manipur has a vision of establishing itself
+        as an Institution of excellence in Cyber Security, Cyber Crime and Forensic so that human resource
+        from IIIT Senapati, Manipur will be prepared to face this growing global threat. It also envisages
+        itself for achieving excellence in application of robotics facilitating human life to overcome
+        congenital as well as acquired disabilities.</string>
+    <string name="mission_and_vision_seven" >Objectives</string>
+    <string name="mission_and_vision_eight" >IIIT Senapati, Manipur has been set up as an institute of
+        international standard for offering UG (B.Tech.), PG (M.Tech.) and Ph.D. degree with a unique
+        model of partnership of the Govt. of India in joint partnership with State Government of Manipur
+        and industry partners.</string>
+    <string name="mission_and_vision_nine">To provide best-in-class human resources to the growing electronics,
+        manufacturing and design and IT software and services industry in India as well as technology development
+        in the area of national importance such as e-Governance in the medium terms.</string>
+    <string name="mission_and_vision_ten" >The IIIT Senapati, Manipur also aims in foster research and development
+        in advanced engineering and applied sciences in M.Tech. and Ph.D. levels.</string>
+    <string name="mission_and_vision_eleven" >To have a strong industry interface to harness the multi-dimensional
+        facets of IT, electronics and design in various domains.</string>
+    <string name="mission_and_vision_twelve">To increase the student capacity to meet the growing demands for industry
+        leaders from domestic and international Markets.</string>
+    <string name="mission_and_vision_thirteen" >To achieve international character by having provision for intake of a
+        certain percentage of foreign students right from graduation level, especially from the South East Asian and
+        SAARC countries.</string>
+    <string name="mission_and_vision_fourteen">To provide mechanism for exchange of faculty with similar institutions
+        of international repute.</string>
+    <string name="mission_and_vision_fifteen">To improve the quality of life of people in general and socio economic
+        environment of North East India region in particular as outreach activity.</string>
+
+
+    <string name="facilities_one">Facilities</string>
+    <string name="facilities_two">IIIT Senapati, Manipur is operating at present from its Transit Campus at Mantripukhri,
+        Imphal. Although institute is in a transit campus, it has all facilities required for an institute of national
+        importance such as state of the art lab, class rooms, wifi connected campus, Library, Auditorium, Hostels,
+        faculty residences within the campus, play ground etc.</string>
+
+
+    <string name="visior_info_one" >Visitors Info</string>
+    <string name="visior_info_two" >Manipur is a beautiful place, close to nature and stable weather conditions all the
+        time. The maximum temperature in the summer months is 32°C (90°F). In winter the temperature often falls below 0°C
+        (32°F), bringing frost.</string>
+    <string name="visior_info_three" >By Air</string>
+    <string name="visior_info_four" >IIIT Senapati, Manipur transit campus is within Imphal town on Imphal Kohima Road,
+        NH 2 and approximately 10 Km from Tulihal Airport in Imphal. The campus is very secure, near new
+        building and opposite of Manipur Information Technology Park. Taxis (Virgo Cab service and Lamjingba Cab service),
+        Auto rickshaws are readily available from the airport to the institute. Imphal, capital of Manipur is well connected
+        by air from various places of India and airlines operate daily flights to and from Imphal like Air India, Indigo,
+        Jet Airways, Air Asia are operating flights to Imphal either via Kolkata or Guwahati depending on origination of
+        the flights.</string>
+    <string name="visior_info_five" >By Rail</string>
+    <string name="visior_info_six">Rail route is yet to reach Imphal, but expected to reach Tupul near Imphal by 2018.
+        At present nearest Rail head is at Dimapur and there are bus services to Imphal from Dimapur.</string>
+    <string name="visior_info_seven">By Bus</string>
+    <string name="visior_info_eight">IIIT Senapati, Manipur transit campus is within Imphal town on Imphal Kohima Road,
+        NH 2. Bus services from the nearest railway station Dimapur and Guwahati are available. It takes around
+        7-8 hours from ISBT, Dimapur and 12-15 hours from ISBT, Guwahati depending upon type of buses.</string>
+    <string name="visior_info_nine">IIIT Senapati, Manipur paternity started in 2015 with two B Tech programs
+        (Computer Science and Engineering and Electronics and Communication Engineering). IIIT Senapati, Manipur
+        have good enough faculties/technical staff for respective departments/courses and all are well qualified
+        with PhD/MTech degree. IIIT Senapati, Manipur have all the facilities within the campus, academic building
+        (Class rooms, ECE Labs, Computer Center, Library and Study room), admin building, auditorium, faculty quarters,
+        guest house, girls hostel, three hostels for boys with well-equipped dining hall, sports ground (football and cricket),
+        WiFi facility and other sports facilities including open gym.</string>
 </resources>
