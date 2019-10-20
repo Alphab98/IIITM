@@ -103,31 +103,37 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         //creating fragment object
         Fragment fragment = null;
+        CardView cardView = findViewById(R.id.slide_show);
 
         //initializing the fragment object which is selected
         switch (itemId) {
             case R.id.nav_aboutiiitm:
-                CardView cardView = findViewById(R.id.slide_show);
                 cardView.setVisibility(View.INVISIBLE);
                 fragment = new AboutIIITMFragment();
                 break;
             case R.id.nav_academics:
+                cardView.setVisibility(View.INVISIBLE);
                 fragment = new AcademicsFragment();
                 break;
             case R.id.nav_contactus:
+                cardView.setVisibility(View.INVISIBLE);
                 fragment = new ContactUsFragment();
                 break;
             case R.id.nav_department:
+                cardView.setVisibility(View.INVISIBLE);
                 fragment = new DepartmentFragment();
                 break;
             case R.id.nav_info:
+                cardView.setVisibility(View.INVISIBLE);
                 fragment = new InfoFragment();
                 break;
             case R.id.nav_people:
+                cardView.setVisibility(View.INVISIBLE);
                 fragment = new PeopleFragment();
                 break;
 
             case R.id.nav_tnp:
+                cardView.setVisibility(View.INVISIBLE);
                 fragment = new TnpFragment();
                 break;
         }

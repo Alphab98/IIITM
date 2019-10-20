@@ -9,7 +9,7 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.aboutiiitm.VisionInfoActivity"></activity>
+        <activity android:name=".ui.aboutiiitm.VisionInfoActivity" />
         <activity android:name=".ui.aboutiiitm.FacilitiesActivity" />
         <activity android:name=".ui.aboutiiitm.MissionVisionActivity" />
         <activity android:name=".ui.aboutiiitm.PPPForIIITManipurActivity" />
