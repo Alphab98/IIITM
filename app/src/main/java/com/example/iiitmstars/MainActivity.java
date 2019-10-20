@@ -1,9 +1,11 @@
 package com.example.iiitmstars;
 
+import android.graphics.Color;
 import android.os.Bundle;
 
 
 import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.cardview.widget.CardView;
 import androidx.core.view.GravityCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
@@ -20,6 +22,9 @@ import com.example.iiitmstars.ui.info.InfoFragment;
 import com.example.iiitmstars.ui.people.PeopleFragment;
 import com.example.iiitmstars.ui.tnp.TnpFragment;
 import com.google.android.material.navigation.NavigationView;
+import com.smarteist.autoimageslider.IndicatorAnimations;
+import com.smarteist.autoimageslider.SliderAnimations;
+import com.smarteist.autoimageslider.SliderView;
 
 import androidx.drawerlayout.widget.DrawerLayout;
 
@@ -29,12 +34,13 @@ import androidx.appcompat.widget.Toolbar;
 import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 import static com.example.iiitmstars.R.id.drawer_layout;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener  {
 
-
+    private SliderView sliderView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -50,6 +56,20 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        sliderView = findViewById(R.id.imageSlider);
+
+        SliderAdapterExample adapter = new SliderAdapterExample(this);
+
+        sliderView.setSliderAdapter(adapter);
+
+        sliderView.setIndicatorAnimation(IndicatorAnimations.WORM);
+        sliderView.setSliderTransformAnimation(SliderAnimations.SIMPLETRANSFORMATION);
+        sliderView.setAutoCycleDirection(SliderView.AUTO_CYCLE_DIRECTION_BACK_AND_FORTH);
+        sliderView.setIndicatorSelectedColor(Color.WHITE);
+        sliderView.setIndicatorUnselectedColor(Color.GRAY);
+        sliderView.setScrollTimeInSec(4); //set scroll delay in seconds :
+        sliderView.startAutoCycle();
 
 
 
@@ -87,6 +107,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         //initializing the fragment object which is selected
         switch (itemId) {
             case R.id.nav_aboutiiitm:
+                CardView cardView = findViewById(R.id.slide_show);
+                cardView.setVisibility(View.INVISIBLE);
                 fragment = new AboutIIITMFragment();
                 break;
             case R.id.nav_academics:
