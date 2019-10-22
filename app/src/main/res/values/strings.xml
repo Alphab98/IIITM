@@ -151,7 +151,9 @@
         (Class rooms, ECE Labs, Computer Center, Library and Study room), admin building, auditorium, faculty quarters,
         guest house, girls hostel, three hostels for boys with well-equipped dining hall, sports ground (football and cricket),
         WiFi facility and other sports facilities including open gym.</string>
+
     <string name="title_activity_people">People</string>
-    <string name="tab_text_1">Tab 1</string>
-    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_1">Student</string>
+    <string name="tab_text_2">faculty</string>
+    <string name="tab_text_3">technical Staff</string>
 </resources>

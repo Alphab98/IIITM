@@ -1,5 +1,6 @@
 package com.example.iiitmstars;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 
@@ -128,8 +129,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 fragment = new InfoFragment();
                 break;
             case R.id.nav_people:
-                cardView.setVisibility(View.INVISIBLE);
-                fragment = new PeopleFragment();
+
+                Intent intent = new Intent(this,PeopleActivity.class);
+                startActivity(intent);
                 break;
 
             case R.id.nav_tnp:
