@@ -10,17 +10,13 @@ import androidx.cardview.widget.CardView;
 import androidx.core.view.GravityCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
-import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
 
 import com.example.iiitmstars.ui.aboutiiitm.AboutIIITMFragment;
 import com.example.iiitmstars.ui.academics.AcademicsFragment;
 import com.example.iiitmstars.ui.contactus.ContactUsFragment;
 import com.example.iiitmstars.ui.department.DepartmentFragment;
 import com.example.iiitmstars.ui.info.InfoFragment;
-import com.example.iiitmstars.ui.people.PeopleFragment;
+import com.example.iiitmstars.ui.people.PeopleActivity;
 import com.example.iiitmstars.ui.tnp.TnpFragment;
 import com.google.android.material.navigation.NavigationView;
 import com.smarteist.autoimageslider.IndicatorAnimations;
@@ -32,12 +28,8 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
-import android.view.Gravity;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-
-import static com.example.iiitmstars.R.id.drawer_layout;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener  {
 
@@ -48,6 +40,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle("Home");
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -130,7 +123,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 break;
             case R.id.nav_people:
 
-                Intent intent = new Intent(this,PeopleActivity.class);
+                Intent intent = new Intent(this, PeopleActivity.class);
                 startActivity(intent);
                 break;
 

@@ -1,4 +1,4 @@
-package com.example.iiitmstars.ui.main;
+package com.example.iiitmstars.ui.people;
 
 import android.content.Context;
 
@@ -14,22 +14,32 @@ import com.example.iiitmstars.R;
  * A [FragmentPagerAdapter] that returns a fragment corresponding to
  * one of the sections/tabs/pages.
  */
-public class SectionsPagerAdapter extends FragmentPagerAdapter {
+
+public class PeopleAdapter extends FragmentPagerAdapter {
 
     @StringRes
     private static final int[] TAB_TITLES = new int[]{R.string.tab_text_1, R.string.tab_text_2,R.string.tab_text_3};
     private final Context mContext;
 
-    public SectionsPagerAdapter(Context context, FragmentManager fm) {
+    public PeopleAdapter(Context context, FragmentManager fm) {
         super(fm);
         mContext = context;
     }
 
     @Override
     public Fragment getItem(int position) {
-        // getItem is called to instantiate the fragment for the given page.
-        // Return a PlaceholderFragment (defined as a static inner class below).
-        return PlaceholderFragment.newInstance(position + 1);
+        switch (position){
+            case 0:
+                StudentFragment studentFragment = new StudentFragment();
+                return studentFragment;
+            case 1:
+                FacultyFragment facultyFragment = new FacultyFragment();
+                return  facultyFragment;
+            case 2:
+                StaffFragment staffFragment = new StaffFragment();
+                return staffFragment;
+        }
+        return null;
     }
 
     @Nullable
@@ -40,7 +50,7 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        // Show 2 total pages.
+
         return 3;
     }
 }
