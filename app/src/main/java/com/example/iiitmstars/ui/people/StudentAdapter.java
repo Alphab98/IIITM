@@ -43,15 +43,12 @@ public class StudentAdapter extends RecyclerView.Adapter<StudentAdapter.ViewHold
         holder.mView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(context, AcademicsActivity.class);
+                Intent intent = new Intent(context, StudentActivity.class);
                 intent.putExtra("user_id", student.getString());
                 context.startActivity(intent);
 
             }
         });
-
-
-
 
     }
 
